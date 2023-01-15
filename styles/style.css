@@ -5,5 +5,27 @@ body{
 
 .hotel{
     width: 200px;
-    height: 50%;
+
+}
+form{
+    display:flex;
+    
+
+}
+.container{
+    display:flex;
+   justify-content:  center;
+   padding: 150px;
+}
+.hotel{
+    position:relative;
+}
+
+.odin-d{
+    color: aquamarine;
+    width: 300px;
+    border: 1px solid red;
+    height: 150px;
+    position:relative;
+    bottom: 180px;
 }

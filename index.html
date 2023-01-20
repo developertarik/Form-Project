@@ -13,65 +13,82 @@
     <div class="flex1">
 
       <img class="hotel" src="images/hotels.jpg" alt="hotels">
+      <div class="odin-d">
+        <p class="odin"> <img class="img-odin" src="images/odin-lined.jpg" alt="odin"> ODIN</p>
+      </div>
 
     </div>
     <div class="flex2">
-      <p class="param">This is not a real online service! You know you need something <br> like This in
+      <p>This is not a real online service! You know you need something <br> like This in
         your life to help you realize your deepest dreams. <br>
         Sign up now to get started. </p>
-        <br>
-      <p class="param1">You know you want to.</p>
+      <br>
+      <p>You know you want to.</p>
 
-      <form class="user" action="">      
+      <form action="">
 
         <fieldset>
-          <p>Lets do this!</p>
+
           <legend></legend>
-          <!--fname-->
-          <div class="user1">
-            <label for="fname"> FIRST NAME </label>
-            <input type="text" name="fname" id="fname">
-             <!--lname-->
-          <label for="lname">LAST NAME</label>
-          <input type="text" name="lname" id="lname">
+          <p>Lets do this!</p>
+          <div class="form-container">
+            <div class="row">
+              <div class="column"> <!--fname-->
 
+                <label for="fname">FIRST NAME</label>
+                <br>
+                <br>
+                <br>
+                <input type="text" name="fname" id="fname">
+
+
+
+
+                <!--lname-->
+                <label for="lname">LAST NAME</label>
+                <br>
+                <input type="text" name="lname" id="lname">
+              </div>
+
+              <div class="column">
+                 <!--Email-->
+              
+                <label for="email">EMAIL</label>
+                <br>
+                <input type="email" name="usermail" id="usermail">
+                <!--Phone number-->
+
+                <label for="number">PHONE NUMBER</label>
+                <br>
+                <input type="tel" name="usertel" id="usertel">
+              </div>
+
+              <div class="column">
+                 <!--Password-->
+                <label for="pword">PASSWORD</label>
+                <br>
+                <input type="password" name="userpw" id="userpw">
+
+                <!--Confirm password-->
+                <label for="cpword">CONFIRM PASSWORD</label>
+                <br>
+                <input type="password" name="CONFIRMpw" id="CONFIRMpw">
+              </div>
+            </div>
           </div>
-          <div class="user2">
-            <label for="email">EMAIL</label>
-            <input type="email" name="usermail" id="usermail">
 
-             <!--Phone number-->
 
-          <label for="number">PHONE NUMBER</label>
-          <input type="tel" name="usertel" id="usertel">
-          </div>
-         
 
-        <div class="user3">
-          <!--Password-->
-          <label for="pword">PASSWORD</label>
-          <input type="password" name="userpw" id="userpw">
 
-          <!--Confirm password-->
-          <label for="cpword">CONFIRM </label>
-          <input type="password" name="CONFIRMpw" id="CONFIRMpw">
-        </div>
-
-         
-          <!--Email-->
-        
-         
-
-          
         </fieldset>
+        <button type="submit">Create Account</button>
 
-
-      </form>
-      <button type="submit">Create Account</button>
-      <p>Already have an account? <a class="login" href="">Log in</a></p>
-
-
+        <p>Already have an account? <a class="login" href="">Log in</a></p>
     </div>
+
+    </form>
+
+  </div>
   </div>
 </body>
 

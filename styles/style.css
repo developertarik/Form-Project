@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Skranji', cursive;
+    background-color: aliceblue;
 }
 
 
@@ -17,8 +18,8 @@ form{
 }
 .container{
     display:flex;
-   justify-content:  center;
-   gap:50px;
+   justify-content:flex-start;
+
 }
 /*flex1*/
 .hotel{
@@ -27,7 +28,7 @@ form{
 }
 .hotel{
     position:relative;
-    width: 400px;
+    width: 450px;
 
 }
 .flex-1{
@@ -77,4 +78,13 @@ label{
 }
 form{
     margin-top: 50px;
+}
+fieldset{
+    border: none;
+    background-color: white;
+    
+
+}
+.flex2-param{
+    margin-left: 50px;
 }

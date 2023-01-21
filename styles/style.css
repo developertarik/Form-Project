@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
-/*body etc.*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');/*body etc.*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -28,8 +28,9 @@ form{
 }
 .hotel{
     position:relative;
-    width: 450px;
     height: 100%;
+    height: 100%;
+    width: 400px;
     
 
 }
@@ -40,12 +41,16 @@ form{
     text-align: center;
     color: white;
     width: 50%;
-        height: 40%;
-
+height: 100%;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-image: url("/images/hotels.jpg");
 }
+
 .odin-d{
     color: white;
-        width: 400px;
+        width: 350px;
     border: 1px solid black;
     background-color: black;
     opacity: 0.60;
@@ -54,6 +59,7 @@ form{
     bottom: 350px;
     font-size: 50px;
     text-align: center;
+    z-index: 999;
     
 }
 .img-odin{
@@ -139,4 +145,15 @@ button:hover{
 input:focus{
     border: 1px solid blue;
     box-shadow: blue;
+}
+
+input[type="password"]:invalid{
+    border: 1px solid red;
+}
+input[type="password"]:valid{
+    border:1px solid green
+}
+span{
+    color: red;
+    font-family: 'Roboto', sans-serif;
 }
